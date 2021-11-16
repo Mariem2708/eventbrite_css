@@ -1,0 +1,135 @@
+.logo {
+  margin: 10px;
+}
+
+
+/*************FOOTER*********/
+.deco {
+  text-decoration: none;
+  color: #093642;
+}
+
+.style-footer {
+  position: relative;
+  bottom: 0;
+  height: 200px;
+  background-color: #b58900;
+  color: #093642;
+  border-top: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+
+
+/******* connexion ******/
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/****** banner *******/
+
+.jumbo{
+  height: 530px;
+  background-image: url(./assets/event6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+.jumbo2{
+  
+  height: 300px;
+  background-image: url(./assets/event2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+.titrejumbo2{
+
+  font-size: 3rem;
+}
+
+/****** Cards *******/
+
+.card-style{
+  border: 1px solid rgba(255, 255, 255, 0.63);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card-participation{
+width: 50%;
+border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+.cardville-style{
+  border: 1px solid rgba(255, 255, 255, 0.63);
+
+}
+
+
+.commentaire-style{
+
+  width:25%;
+  border: 1px solid rgba(255, 255, 255, 0.63);
+
+}
+
+/****** Page évènement*******/
+
+.img-event{
+  border: 1px solid rgba(255, 255, 255, 0.63);
+}
+
+.titre-info-event{
+  font-size: 2.5rem;
+  margin: 50px;
+  font-style: italic;
+}
+
+.organisateur{
+  font-size: 1.2rem;
+  margin: 20px ;
+}
+.info-event{
+  font-size: 1.8rem;
+  margin: 20px;
+}
+
+.info-event-boutton{
+  font-size: 2rem;
+  margin: 40px;
+
+}
+
